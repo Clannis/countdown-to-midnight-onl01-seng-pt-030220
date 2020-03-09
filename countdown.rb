@@ -9,7 +9,7 @@ def countdown(number)
 end
 
 response = countdown(10)
-#puts response
+puts response
 
 def countdown_with_sleep(number)
   while number > 0 do
