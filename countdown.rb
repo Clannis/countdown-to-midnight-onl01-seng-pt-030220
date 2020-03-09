@@ -8,7 +8,11 @@ def countdown(number)
   "HAPPY NEW YEAR!"
 end
 
-response = countdown(10)
+def name(string)
+  puts "James, #{string}"
+end
+
+name(countdown(10))
 
 response += " James"
 puts response
